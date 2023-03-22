@@ -1,0 +1,60 @@
+html {}
+
+body {
+  display: inline-flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+main {
+  height: 90vh;
+}
+
+.navStyle {
+  color: white;
+  background-color: black;
+
+}
+
+.container {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+
+}
+
+.content {
+  background: gray;
+  flex: 1 0 auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+.content a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.header {
+  color: white;
+  background: rgb(18, 18, 24);
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.footer {
+  color: white;
+  background: rgb(18, 18, 24);
+  height: 30px;
+  flex-shrink: 0;
+}
+
+
+a {
+  color: white;
+  text-decoration-line: none;
+}
